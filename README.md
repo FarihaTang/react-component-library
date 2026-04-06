@@ -38,7 +38,7 @@ npm install @farihatang/react-ui
 ```tsx
 import { Button } from '@farihatang/react-ui';
 // Import Tailwind styles in your app root
-import '@farihatang/react-ui/dist/styles.css';
+import '@farihatang/react-ui/styles';
 
 export function PaymentButton() {
   return (
