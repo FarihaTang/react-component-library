@@ -11,6 +11,7 @@
 | Component | Description                                                                                                                   |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | `Button`  | 4 variants, 3 sizes, loading state, leading/trailing icons                                                                    |
+| `Badge`   | Semantic status labels — Settled, Pending, Failed, Refunded, etc.                                                             |
 | `NavBar`  | 2 themes (light/dark), scroll-triggered background effect, configurable links, CTA button, responsive mobile menu with toggle |
 
 ## Getting Started
@@ -36,7 +37,7 @@ npm install @farihatang/react-ui
 ```
 
 ```tsx
-import { Button } from '@farihatang/react-ui';
+import { Button, Badge } from '@farihatang/react-ui';
 // Import Tailwind styles in your app root
 import '@farihatang/react-ui/styles';
 
@@ -60,6 +61,7 @@ src/
 │   ├── NavBar/
 │   │   ├── NavBar.tsx
 │   │   └── NavBar.stories.tsx
+│   ├── Badge/
 ├── lib/
 │   └── cn.ts
 ├── styles/
