@@ -14,5 +14,9 @@ export type { NavLink, NavBarProps } from './components/NavBar/NavBar';
 export { Card, CardHeader, CardSection } from './components/Card/Card';
 export type { CardProps, CardHeaderProps, CardSectionProps } from './components/Card/Card';
 
+// StatCard
+export { StatCard } from './components/StatCard/StatCard';
+export type { StatCardProps, StatCardTrend } from './components/StatCard/StatCard';
+
 // Utilities
 export { cn } from './lib/cn';

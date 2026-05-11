@@ -8,11 +8,12 @@
 
 ## Components
 
-| Component | Description                                                                                                                   |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| `Button`  | 4 variants, 3 sizes, loading state, leading/trailing icons                                                                    |
-| `Badge`   | Semantic status labels — Settled, Pending, Failed, Refunded, etc.                                                             |
-| `NavBar`  | 2 themes (light/dark), scroll-triggered background effect, configurable links, CTA button, responsive mobile menu with toggle |
+| Component  | Description                                                                                                                   |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `Button`   | 4 variants, 3 sizes, loading state, leading/trailing icons                                                                    |
+| `Badge`    | Semantic status labels — Settled, Pending, Failed, Refunded, etc.                                                             |
+| `NavBar`   | 2 themes (light/dark), scroll-triggered background effect, configurable links, CTA button, responsive mobile menu with toggle |
+| `StatCard` | KPI card with inline SVG sparkline, highlight variant for hero metrics                                                        |
 
 ## Getting Started
 
@@ -62,6 +63,7 @@ src/
 │   │   ├── NavBar.tsx
 │   │   └── NavBar.stories.tsx
 │   ├── Badge/
+│   └── StatCard/
 ├── lib/
 │   └── cn.ts
 ├── styles/
